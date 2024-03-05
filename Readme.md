@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Мария Фролова](https://up.htmlacademy.ru/htmlcss-individual/1/user/2482195).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Румянцев](https://htmlacademy.ru/profile/id1521451).
+
 
 ---
 
