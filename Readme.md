@@ -3,6 +3,7 @@
 * Студент: [Мария Фролова](https://up.htmlacademy.ru/htmlcss-individual/1/user/2482195).
 * Наставник: [Александр Румянцев](https://htmlacademy.ru/profile/id1521451).
 
+
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
