@@ -12,10 +12,10 @@
 
   <body>
     <header class="page-header">
+      <a class="logo">
+        <img src="image/logo-sedona.svg" width="140" height="70" alt="Логотип города Седоны">
+      </a>
       <nav class="header-navigation">
-        <p class="logo">
-          <img src="image/logo-sedona.svg" width="140" height="70" alt="Логотип города Седоны">
-        </p>
         <ul class="header-navigation-list">
           <li class="header-navigation-item">
             <a class="header-navigation-link header-navigation-link-current" href="index.html">Главная</a>
@@ -30,6 +30,7 @@
         <ul class="header-navigation-user">
           <li class="header-navigation-item">
             <a class="header-navigation-link" href="#">
+              <img src="image/icon-search.svg" width="18" height="18" alt="Поиск">
               <span class="visually-hidden">
                 Поиск
               </span>
@@ -37,6 +38,7 @@
           </li>
           <li class="header-navigation-item">
             <a class="header-navigation-link" href="#">
+              <img src="image/icon-heart.svg" width="18" height="17" alt="Избранное">
               <span class="visually-hidden">
                 Избранное
               </span>
@@ -53,12 +55,9 @@
     <main class="main-index">
       <div class="hero">
         <h1 class="visually-hidden">Город Седона</h1>
-        <img src="image/index-background.jpg" width="1200" height="485" alt="Вид на горы в городке Седона">
-      </div>
-      <div class="welcome-text">
-        <img src="image/pic-1.jpg" alt="Текст Welcome">
-        <img src="image/pic-2.jpg" alt="Текст to the gorgeous">
-        <img src="image/pic-3.jpg" alt="Текст Sedona">
+        <img class="hero-background" src="image/index-background.jpg" width="1200" height="485" alt="Вид на горы в городке Седона">
+        <img class="hero-text" src="image/welcome-text.svg" width="458" height="352" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+        <img class="hero-divider" src="image/divider.svg" width="1200" height="57" alt="Разделитель страниц">
       </div>
       <div id="about-sedona" class="container">
         <h2 class="container-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -98,17 +97,17 @@
         </div>
         <ul class="features-list">
           <li class="features-items">
-            <img src="image/accommodations.svg" width="75" height="72" alt="Жилье">
+            <img src="image/advantages-hotel-icon.svg" width="75" height="72" alt="Жилье">
             <h3 class="features-title">Жильё</h3>
             <p class="features-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="features-items">
-            <img src="image/food.svg" width="75" height="72" alt="Еда">
+            <img src="image/advantages-food-icon.svg" width="75" height="72" alt="Еда">
             <h3 class="features-title">Еда</h3>
             <p class="features-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="features-items">
-            <img src="image/souvenir.svg" width="75" height="72" alt="Сувениры">
+            <img src="image/advantages-souvenir-icon.svg" width="75" height="72" alt="Сувениры">
             <h3 class="features-title">Сувениры</h3>
             <p class="features-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
@@ -125,6 +124,7 @@
         <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <input type="text" name="user-email" placeholder="Ваш email">
+          <img src="image/date-icon.svg" width="" height="" alt="Выбрать дату поездки">
           <button class="subscribe-form-button" type="submit">Подписаться</button>
         </form>
       </section>
@@ -134,17 +134,17 @@
         <ul class="navigation-social-list">
           <li class="navigation-social-item">
             <a class="social-link" href="https://vk.com/htmlacademy">
-              <img src="/image/social-vk.svg" width="24" height="14" alt="VK">
+              <img src="image/social-vk.svg" width="24" height="14" alt="VK">
             </a>
           </li>
           <li class="navigation-social-item">
             <a class="social-link" href="https://t.me/htmlacademy">
-              <img src="/image/social-telegram.svg" width="18" height="16" alt="Telegram">
+              <img src="image/social-telegram.svg" width="18" height="16" alt="Telegram">
             </a>
           </li>
           <li class="navigation-social-item">
             <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
-              <img src="/image/social-youtube.png" width="22" height="17" alt="Youtube">
+              <img src="image/social-youtube.svg" width="22" height="17" alt="Youtube">
             </a>
           </li>
         </ul>
@@ -154,7 +154,7 @@
       </div>
       <div class="footer-logo">
         <a class="footer-logo-link" href="https://htmlacademy.ru/">
-          <img src="/image/logo-htmlacademy.svg" alt="HTML Академия">
+          <img src="image/logo-htmlacademy.svg" width="114.9" height="32.9" alt="HTML Академия">
         </a>
       </div>
     </footer>
