@@ -67,11 +67,11 @@ body {
   background-color: #ffffff;
 }
 
-.advanteges-list {
+.advantages-list {
   text-align: center;
 }
 
-.advanteges-title {
+.advantages-title {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -80,7 +80,7 @@ body {
   text-transform: uppercase;
 }
 
-.advanteges-description {
+.advantages-description {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -112,6 +112,11 @@ body {
 
 .features-list {
   text-align: center;
+}
+
+.features-icon {
+  width: 75px;
+  height: 72px;
 }
 
 .features-title {
@@ -305,4 +310,68 @@ body {
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
+}
+
+.header-navigation-list,
+.header-navigation-user,
+.advantages-list,
+.rating-stars-list {
+  list-style: none;
+}
+
+.real-town {
+  width: 800px;
+  height: 385px;
+  background-image: url(../image/photo-1.jpg);
+  background-repeat: no-repeat;
+}
+
+.button-view {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-search {
+  width: 18px;
+  height: 17px;
+}
+
+.rating-stars-list {
+  width: 18px;
+  height: 18px;
+}
+
+.breadcrumbs-item-link {
+  width: 13px;
+  height: 13px;
+}
+
+.breadcrumbs-arrow {
+  width: 8px;
+  height: 11px;
+}
+
+.welcome-text {
+  width: 458px;
+  height: 352px;
+}
+
+.hero-divider {
+  width: 1200px;
+  height: 57px;
+}
+
+.social-link-vk {
+  width: 24px;
+  height: 14px;
+}
+
+.social-link-tg {
+  width: 18px;
+  height: 16px;
+}
+
+.social-link-yt {
+  width: 22px;
+  height: 17px;
 }
