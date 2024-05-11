@@ -362,9 +362,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #82B3D3;
   background-image: url(../image/signup-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .subscribe-inner-container {
@@ -420,13 +422,41 @@ body {
   margin: 0 auto;
 }
 
+.navigation-social {
+  margin-left: 70px;
+  width: 142px;
+}
+
 .navigation-social-list {
-  list-style-type: none;
   display: flex;
   margin: 0;
-  margin-left: 80px;
   padding: 0;
-  align-items: center;
+  list-style-type: none;
+}
+
+.navigation-social-item {
+  width: 47px;
+  height: 40px;
+}
+
+.social-link {
+  display: block;
+  height: 40px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-link-vk {
+  background-image: url(../image/social-vk.svg);
+}
+
+.social-link-tg {
+  background-image: url(../image/social-telegram.svg);
+}
+
+.social-link-yt {
+  background-image: url(../image/social-youtube.svg);
 }
 
 .phone {
@@ -452,9 +482,11 @@ body {
 .inner-header-wrapper {
   width: 1200px;
   height: 414px;
+  background-color: #82B3D3;
   background-image: url(../image/catalog-background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 
@@ -470,17 +502,32 @@ body {
 }
 
 .breadcrumbs {
-  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
   margin-left: 70px;
   margin-right: 1016px;
-  padding: 0;
-  display: flex;
+  list-style-type: none;
 }
+
+.breadcrumbs li:not(:first-child)::before {
+  display: inline-block;
+  margin: 0;
+  content: url(../image/breadcrumbs-home-icon.svg);
+}
+
 
 .breadcrumbs-item-list {
   text-decoration: none;
   color: #ffffff;
   background-color: transparent;
+}
+
+.breadcrumbs-arrow {
+  width: 8px;
+  height: 11px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .hotel-catalog-filter {
@@ -653,6 +700,26 @@ body {
   list-style: none;
 }
 
+.rating-stars {
+  display: inline-block;
+  background: url(../image/star-icon.svg);
+  height: 17px;
+
+}
+
+.two-stars {
+  width: 36px;
+}
+
+.three-stars {
+  width: 54px;
+}
+
+
+.four-stars {
+  width: 72px;
+}
+
 .button-view {
   width: 16px;
   height: 16px;
@@ -668,32 +735,9 @@ body {
   height: 18px;
 }
 
-.breadcrumbs-item-link {
-  width: 13px;
-  height: 13px;
-}
 
-.breadcrumbs-arrow {
-  width: 8px;
-  height: 11px;
-}
 
 .hero-divider {
   width: 1200px;
   height: 57px;
-}
-
-.social-link-vk {
-  width: 24px;
-  height: 14px;
-}
-
-.social-link-tg {
-  width: 18px;
-  height: 16px;
-}
-
-.social-link-yt {
-  width: 22px;
-  height: 17px;
 }
