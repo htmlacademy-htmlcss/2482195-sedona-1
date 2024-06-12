@@ -143,7 +143,6 @@ body {
   position: relative;
 }
 
-
 .header-navigation-user {
   display: flex;
   align-items: center;
@@ -238,6 +237,7 @@ body {
 }
 
 .logo {
+  height: 70px;
   margin-left: 70px;
   margin-right: 28px;
   z-index: 1;
@@ -250,20 +250,25 @@ body {
 
 .main-container {
   flex-grow: 1;
-
-}
-
-.main-index {
-  color: #000000;
-  background-color: #ffffff;
-  background-image: url(../image/index-background.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  padding-top: 51px;
 }
 
 .hero {
-  height: 485px;
+  color: #000000;
+  background-image: url(../image/index-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 51px;
+  padding-bottom: 82px;
+  position: relative;
+  background-color: #82B3D3;
+}
+
+.hero::after {
+  content: url(../image/divider.svg);
+  display: block;
+  position: absolute;
+  bottom: -5px;
+
 }
 
 .welcome-text {
@@ -271,14 +276,6 @@ body {
   height: 352px;
   margin-left: 371px;
   margin-right: 371px;
-  padding-bottom: 82px;
-}
-
-.hero-divider {
-  position: relative;
-  bottom: 61px;
-  width: 1200px;
-  height: 57px;
 }
 
 .container {
@@ -312,7 +309,6 @@ body {
   margin: 0 auto;
   padding-bottom: 69px;
 }
-
 
 
 .advantages {
@@ -1293,10 +1289,4 @@ body {
 
 .four-stars {
   width: 72px;
-}
-
-
-.hero-divider {
-  width: 1200px;
-  height: 57px;
 }
