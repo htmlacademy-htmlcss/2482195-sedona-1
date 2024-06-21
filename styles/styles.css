@@ -303,11 +303,15 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 630px;
   color: #000000;
   background-color: #ffffff;
-  padding: 69px 290px 25px 290px;
+  /* padding: 69px 290px 25px 290px; */
   margin: 0 auto;
-  text-transform: uppercase;
+  padding-top: 69px;
+  padding-bottom: 25px;
 }
 
 .container-text {
