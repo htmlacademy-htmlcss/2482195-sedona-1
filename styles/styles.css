@@ -1009,7 +1009,7 @@ body {
   cursor: pointer;
 }
 
-.number-form-wrapper .field-group:last-child .control-input-label {
+.input-children {
   margin: 0;
   padding-right: 37px;
   margin-right: 46px;
