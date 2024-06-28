@@ -1521,7 +1521,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: 200px;
-  margin-left: 70px;
+  margin-left: auto;
   gap: 6px;
   padding: 0;
 }
@@ -1691,7 +1691,7 @@ body {
   background-color: #ffffff;
   margin: 0;
   margin-top: 3px;
-  margin-right: 200px;
+  margin-right: 150px;
   text-transform: uppercase;
   max-width: 400px;
 }
