@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>HTML Academy: Седона</title>
-    <link rel=icon href="image/favicon/favicon.ico" sizes="16x16 32x32" type="image/vnd.microsoft.icon">
+    <link rel=icon href="image/favicon/favicon.png" sizes="16x16 32x32" type="image/png">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
 
@@ -144,10 +144,10 @@
             </div>
             <div class="form-wrapper">
               <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-                <legend class="legend">
+                <div class="legend">
                   <input class="form-container" type="text" name="user-email" placeholder="Ваш e-mail">
                   <button class="subscribe-form-button blue-button" type="submit">Подписаться</button>
-                </legend>
+                </div>
               </form>
             </div>
           </div>
@@ -246,7 +246,8 @@
                   <span class="tooltip-wrapper">
                     <label class="control-input-label input-children" for="children">Дети:
                       <span class="tooltip">
-                        <button class="tooltip-toggle" aria-labelledby="tooltip-label-date" type="button"></button>
+                        <button id="children" class="tooltip-toggle" aria-labelledby="tooltip-label-date"
+                          type="button"></button>
                         <span class="tooltip-text" role="tooltip" id="tooltip-label-date">Укажите количество детей,
                           которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются
                           бесплатно.</span>

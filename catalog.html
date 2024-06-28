@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>HTML Academy: Гостиницы Седоны</title>
-    <link rel=icon href="image/favicon/favicon.ico" sizes="16x16 32x32" type="image/vnd.microsoft.icon">
+    <link rel=icon href="image/favicon/favicon.png" sizes="16x16 32x32" type="image/png">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
 
@@ -330,6 +330,85 @@
           </a>
         </div>
       </footer>
+      <div class="modal-container">
+        <div class="modal modal-search">
+          <button class="modal-close-button">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+          <section class="modal-content">
+            <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+            <form class="search-form" action="https://echo.htmlacademy.ru/">
+              <div class="field-group">
+                <label class="form-date" for="arrival-date">Дата заезда: </label>
+                <div class="date-form-wrapper">
+                  <input class="date-form-field field" type="text" id="arrival-date" name="arrival-date"
+                    value="27 апреля 2020" placeholder="Выберите дату заезда">
+                  <span class="field-text text-error">Мы не можем отправить вас в прошлое.</span>
+                </div>
+              </div>
+              <div class="field-group">
+                <label class="form-date" for="departure-date">Дата выезда: </label>
+                <div class="date-form-wrapper">
+                  <input class="date-form-field field" type="text" id="departure-date" name="departure-date"
+                    value="1 сентября 2021" placeholder="Выберите дату выезда">
+                  <span class="field-text">На эти даты есть свободные номера. Пока есть.</span>
+                </div>
+              </div>
+              <div class="number-form-wrapper">
+                <div class="field-group">
+                  <label class="control-input-label" for="adult">Взрослые: </label>
+                  <button class="input-minus" type="button">
+                    <svg class="input-minus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 9V11H17V9H3Z" fill="currentColor" />
+                    </svg>
+                    <span class="visually-hidden">Уменьшает количество взрослых человек.</span>
+                  </button>
+                  <input id="adult" class="control-input" type="number" value="2" name="adult">
+                  <button class="input-plus" type="button">
+                    <svg class="input-plus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" fill="currentColor" />
+                    </svg>
+                    <span class="visually-hidden">Увеличивает количество взрослых человек.</span>
+                  </button>
+                </div>
+                <div class="field-group">
+                  <span class="tooltip-wrapper">
+                    <label class="control-input-label input-children" for="children">Дети:
+                      <span class="tooltip">
+                        <button id="children" class="tooltip-toggle" aria-labelledby="tooltip-label-date"
+                          type="button"></button>
+                        <span class="tooltip-text" role="tooltip" id="tooltip-label-date">Укажите количество детей,
+                          которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются
+                          бесплатно.</span>
+                      </span>
+                    </label>
+                  </span>
+                  <button class="input-minus" type="button">
+                    <svg class="input-minus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3 9V11H17V9H3Z" fill="currentColor" />
+                    </svg>
+                    <span class="visually-hidden">Уменьшает количество детей.</span>
+                  </button>
+                  <input id="children" class="control-input" type="number" value="2" name="children">
+                  <button class="input-plus" type="button">
+                    <svg class="input-plus-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" fill="currentColor" />
+                    </svg>
+                    <span class="visually-hidden">Увеличивает количество детей.</span>
+                  </button>
+                </div>
+              </div>
+              <button class="modal-search-button blue-button" type="button">Найти
+                <span class="visually-hidden">Ищет подходящие по фильтрам отели.</span>
+              </button>
+            </form>
+          </section>
+        </div>
+      </div>
     </div>
   </body>
 
