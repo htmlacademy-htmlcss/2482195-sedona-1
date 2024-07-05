@@ -1677,7 +1677,7 @@ body {
 }
 
 .select-control:enabled {
-  color: rgba(0, 0, 0, 0.3);
+  color: #333333;
   background-color: #ffffff;
   border: 2px solid rgba(229, 229, 229, 1);
 }
