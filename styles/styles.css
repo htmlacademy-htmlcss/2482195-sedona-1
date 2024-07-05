@@ -262,7 +262,7 @@ body {
   top: 0;
   margin-right: 28px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   z-index: 1;
 }
 
@@ -285,7 +285,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .hero::after {
@@ -404,7 +404,7 @@ body {
 .advantages-image {
   background-size: cover;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .advantages-description {
@@ -412,7 +412,6 @@ body {
   font-style: normal;
   font-weight: 400;
   margin: 0;
-  color: #333333;
 }
 
 .advantages-item:nth-child(1),
@@ -423,12 +422,19 @@ body {
 
 .advantages-item:nth-child(2),
 .advantages-item:nth-child(4) {
-  color: #000000;
+  color: #333333;
   background-color: #f0f6fa;
 }
 
 .advantages-item:nth-child(3) {
+  color: #333333;
   background-color: #e6f0f6;
+}
+
+.advantages-item:nth-child(2) .advantages-title,
+.advantages-item:nth-child(4) .advantages-title,
+.advantages-item:nth-child(3) .advantages-title {
+  color: #000000;
 }
 
 .features {
@@ -1643,24 +1649,11 @@ body {
   background-color: #ffffff;
 }
 
-.select-control:disabled {
-  color: rgba(0, 0, 0, 0.3);
-  background-color: #ffffff;
-  border: 2px solid rgba(0, 0, 0, 0.3);
-}
-
-.select-control:enabled {
-  color: rgba(0, 0, 0, 0.3);
-  background-color: #ffffff;
-  border: 2px solid rgba(229, 229, 229, 1);
-}
-
 .select-control {
   width: 100%;
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
-  color: #333333;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1672,17 +1665,31 @@ body {
   background-position: right 20px center;
   padding-right: 40px;
   cursor: pointer;
+  color: #333333;
+  background-color: #FFFFFF;
 }
 
-.select-control:hover {
+.select-control:disabled {
+  color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  background-image: url("../image/arrow-down-icon-opacity.svg");
+}
+
+.select-control:enabled {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  border: 2px solid rgba(229, 229, 229, 1);
+}
+
+.select-control:hover,
+.select-control:focus {
+  color: #333333;
   border-color: #68A2CA;
 }
 
-.select-control:focus {
-  border-color: #3F5E72;
-}
-
-.select-control:focus {
+.select-control:active {
+  color: #333333;
   border-color: #3F5E72;
 }
 
@@ -1783,7 +1790,7 @@ body {
   color: #000000;
   background-color: #ffffff;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .hotel-card-button {
